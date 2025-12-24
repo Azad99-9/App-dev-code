@@ -46,10 +46,10 @@ void main() {
 
 }
 
-// Future<void> fetchUserData() async {
-//   return Future.delayed(Duration(seconds: 5), () => print('User: Azad')); // asynchronous code
-//   // return Future.delayed(// after how much duration the code should execute, what you should execute); // asynchronous code
-// }
+Future<void> fetchUserData() async {
+  return Future.delayed(Duration(seconds: 5), () => print('User: Azad')); // asynchronous code
+  // return Future.delayed(// after how much duration the code should execute, what you should execute); // asynchronous code
+}
 
 // Future<int> helper() async {
 //   await fetchUserData();
